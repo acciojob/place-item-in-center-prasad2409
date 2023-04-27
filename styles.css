@@ -1,2 +1,7 @@
 
 /* Your CSS Code here. */
+.item-1{
+	display: flex;
+	background-color: blue;
+	justify-content: center;
+}
