@@ -1,7 +1,14 @@
 
 /* Your CSS Code here. */
-.holder{
-	display: flex;
-	background-color: blue;
-	justify-content: center;
+.holder {
+  display: flex;
+  justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
+  height: 100vh; /* set height of holder to 100% of viewport height */
+}
+
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
